@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Struk Pesanan</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<div class="logo-container">
+        <img
+            src="/images/logo/Logo.png"
+            alt="Logo Restoran"
+            class="logo-struk"
+        >
+    </div>
+    <h1>Struk Pesanan</h1>
+    <div class="card">
+        <p>
+            <strong>Nomor Meja:</strong>
+            <span id="nomorMeja">-</span>
+        </p>
+        <hr>
+        <h2>Pesanan</h2>
+        <div id="daftarPesanan">
+            Memuat pesanan...
+        </div>
+        <hr>
+        <div class="total-container">
+            <strong>Total Pembayaran:</strong>
+            <strong id="totalHarga">Rp 0</strong>
+        </div>
+        <p>
+            <strong>Status:</strong>
+            <span id="statusPesanan">-</span>
+        </p>
+    </div>
+
+<script src="/pelanggan.js"></script>
+<script>tampilkanStruk();</script>
+
+</body>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Menu</title>
+    
+    <!-- Memanggil File CSS Terpisah -->
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <!-- Memuat Supabase Library via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- Memuat Font dari Google Fonts -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Fredoka:wght@400;600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+      <div class="logo-container">
+
+        <img
+            src="/images/logo/Logo.png"
+            alt="Logo Restoran"
+            class="logo-struk"
+        >
+
+    <h1>Daftar Menu</h1>
+
+    <!-- Identitas Pelanggan -->
+    <div class="card">
+        <label for="nomorMeja"><strong>Nomor Meja: </strong></label>
+        <input type="text" id="nomorMeja" placeholder="Contoh: Meja 05">
+    </div>
+
+    <!-- Daftar Menu -->
+
+    <!-- Makanan -->
+    <div class="card">
+
+    <h2>Daftar Menu</h2>
+
+    <div id="menuContainer">
+
+        <div class="menu-item">
+            <img src="/images/menu/makanan/nasi-goreng.jpg"
+                 alt="Nasi Goreng"
+                 class="menu-image">
+
+            <strong>Nasi Goreng</strong>
+
+            <small>Rp 12.000</small>
+
+          <div class="qty-control">
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,-1)">
+        −
+    </button>
+
+    <input
+        type="number"
+        class="qty-input menu-qty"
+        data-id="1"
+        data-harga="12000"
+        data-nama="Nasi Goreng"
+        min="0"
+        value="0"
+        readonly>
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,1)">
+        +
+    </button>
+          </div> 
+
+</div>
+        <div class="menu-item">
+            <img src="/images/menu/makanan/mie-goreng.png"
+                 alt="Mie Goreng"
+                 class="menu-image">
+
+            <strong>Mie Goreng</strong>
+
+            <small>Rp 12.000</small>
+
+            <div class="qty-control">
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,-1)">
+        −
+    </button>
+
+    <input
+        type="number"
+        class="qty-input menu-qty"
+        data-id="2"
+        data-harga="12000"
+        data-nama="Mie Goreng"
+        min="0"
+        value="0"
+        readonly>
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,1)">
+        +
+    </button>
+            </div>
+        </div>
+            
+        <div class="menu-item">
+            <img src="/images/menu/makanan/bakso.jpg"
+                 alt="Bakso"
+                 class="menu-image">
+
+            <strong>Bakso</strong>
+
+            <small>Rp 10.000</small>
+
+            <div class="qty-control">
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,-1)">
+        −
+    </button>
+
+    <input
+        type="number"
+        class="qty-input menu-qty"
+        data-id="3"
+        data-harga="10000"
+        data-nama="Bakso"
+        min="0"
+        value="0"
+        readonly>
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,1)">
+        +
+    </button>
+            </div>
+            </div>
+        <div class="menu-item">
+            <img src="/images/menu/makanan/mie-ayam.jpg"
+                 alt="Mie Ayam"
+                 class="menu-image">
+
+            <strong>Mie Ayam</strong>
+
+            <small>Rp 9000</small>
+
+          <div class="qty-control">
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,-1)">
+        −
+    </button>
+
+    <input
+        type="number"
+        class="qty-input menu-qty"
+        data-id="1"
+        data-harga="12000"
+        data-nama="Nasi Goreng"
+        min="0"
+        value="0"
+        readonly>
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,1)">
+        +
+    </button> 
+          </div>
+
+</div>
+        <div class="menu-item">
+            <img src="/images/menu/minuman/es-teh.png"
+                 alt="Es Teh"
+                 class="menu-image">
+
+            <strong>Es Teh</strong>
+
+            <small>Rp 5.000</small>
+
+           <div class="qty-control">
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,-1)">
+        −
+    </button>
+
+    <input
+        type="number"
+        class="qty-input menu-qty"
+        data-id="3"
+        data-harga="5000"
+        data-nama="Es Teh"
+        min="0"
+        value="0"
+        readonly>
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,1)">
+        +
+    </button>
+           </div>
+
+</div>
+        <div class="menu-item">
+            <img src="/images/menu/minuman/es-jeruk.jpg"
+                 alt="Es Jeruk"
+                 class="menu-image">
+
+            <strong>Es Jeruk</strong>
+
+            <small>Rp 5.000</small>
+<div class="qty-control">
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,-1)">
+
+    </button>
+
+    <input
+        type="number"
+        class="qty-input menu-qty"
+        data-id="4"
+        data-harga="5000"
+        data-nama="Es Jeruk"
+        min="0"
+        value="0"
+        readonly>
+
+    <button
+        type="button"
+        class="qty-btn"
+        onclick="ubahQty(this,1)">
+        +
+    </button>
+
+</div>
+    </div>
+
+</div>
+
+    <!-- Ringkasan Pembayaran -->
+    <div class="card">
+
+        <div class="total-container">
+            <span>Total Pembayaran: </span>
+            <span id="totalHarga">Rp 0</span>
+        </div>
+        <h3>📝 List Pesanan</h3>
+
+<div id="hasilPesanan">
+</div>
+
+        <button id="kirimPesanan" onclick="prosesPesan()">🍽️ Kirim Pesanan ke Kasir</button>
+    </div>
+
+    <!-- Memanggil File Backend Terpisah -->
+    <script src="/pelanggan.js"></script>
+
+</body>
+</html>
