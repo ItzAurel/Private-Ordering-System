@@ -164,5 +164,5 @@ Beberapa bagian dari project masih dapat dikembangkan lebih lanjut, seperti sist
 </p>
 
 <p align="center">
-&#x20; Dibuat dengan ❤️ oleh <b>ItzAurel | Leviathan-w1</b>
+&#x20; Dibuat dengan ❤️ oleh <b>ItzAurel | Leviathan-a13</b>
 </p>
