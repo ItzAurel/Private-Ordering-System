@@ -157,12 +157,12 @@ Beberapa bagian dari project masih dapat dikembangkan lebih lanjut, seperti sist
 
 ---
 
-<h3 align="center">📜 Lisensi</h3>
+<h3 align="center">📜 Lisensi Penggunaan</h3>
 
 <p align="center">
 &#x20; Project ini dibuat untuk keperluan pembelajaran dan pengembangan.
 </p>
 
 <p align="center">
-&#x20; Dibuat dengan ❤️ oleh <b>ItzAurel</b>
+&#x20; Dibuat dengan ❤️ oleh <b>ItzAurel | Leviathan-w1</b>
 </p>
