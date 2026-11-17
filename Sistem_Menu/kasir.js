@@ -10,34 +10,44 @@ if (formLogin) {
 
         event.preventDefault();
 
-        const username = document.getElementById("username").value;
-        const password = document.getElementById("password").value;
-        const pesanLogin = document.getElementById("pesanLogin");
+        const username =
+            document.getElementById("username").value;
+
+        const password =
+            document.getElementById("password").value;
+
+        const pesanLogin =
+            document.getElementById("pesanLogin");
 
         try {
 
-            const response = await fetch("/login-kasir", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    username: username,
-                    password: password
-                })
-            });
+            const response =
+                await fetch("/login-kasir", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        username: username,
+                        password: password
+                    })
+                });
 
-            const hasil = await response.json();
+            const hasil =
+                await response.json();
 
             if (hasil.success) {
 
-                pesanLogin.innerText = "Login berhasil.";
+                pesanLogin.innerText =
+                    "Login berhasil.";
 
-                window.location.href = "/kasir/dashboard.html";
+                window.location.href =
+                    "/kasir/dashboard.html";
 
             } else {
 
-                pesanLogin.innerText = hasil.message;
+                pesanLogin.innerText =
+                    hasil.message;
 
             }
 
@@ -58,8 +68,6 @@ if (formLogin) {
 /*==================================================================================================*/
 /*                                          AREA DASHBOARD                                          */
 /*==================================================================================================*/
-
-let pesananDitampilkan = new Set();
 
 async function tampilkanPesanan() {
 
@@ -89,25 +97,28 @@ async function tampilkanPesanan() {
         const data =
             hasil.data || [];
 
-        const jumlahPesanan =
-            document.getElementById(
-                "jumlahPesanan"
-            );
 
-        const jumlahSelesai =
-            document.getElementById(
-                "jumlahSelesai"
-            );
+        /*==========================================================================================*/
+        /*                                      JUMLAH PESANAN                                       */
+        /*==========================================================================================*/
+
+        const jumlahPesanan =
+            document.getElementById("jumlahPesanan");
 
         if (jumlahPesanan) {
+
             jumlahPesanan.textContent =
                 data.length;
+
         }
 
-        if (!container.dataset.loaded) {
-            container.innerHTML = "";
-            container.dataset.loaded = "true";
-        }
+
+        /*==========================================================================================*/
+        /*                                      TAMPILKAN DATA                                       */
+        /*==========================================================================================*/
+
+        container.innerHTML = "";
+
 
         if (data.length === 0) {
 
@@ -115,21 +126,11 @@ async function tampilkanPesanan() {
                 "<p>Belum ada pesanan.</p>";
 
             return;
+
         }
 
+
         data.forEach(pesanan => {
-
-            if (
-                pesananDitampilkan.has(
-                    pesanan._id
-                )
-            ) {
-                return;
-            }
-
-            pesananDitampilkan.add(
-                pesanan._id
-            );
 
             const divPesanan =
                 document.createElement("div");
@@ -139,6 +140,11 @@ async function tampilkanPesanan() {
 
             divPesanan.dataset.id =
                 pesanan._id;
+
+
+            /*======================================================================================*/
+            /*                                      ITEM PESANAN                                     */
+            /*======================================================================================*/
 
             let htmlItem = "";
 
@@ -152,6 +158,11 @@ async function tampilkanPesanan() {
                 `;
 
             });
+
+
+            /*======================================================================================*/
+            /*                                    TAMPILKAN PESAN                                    */
+            /*======================================================================================*/
 
             divPesanan.innerHTML = `
 
@@ -180,6 +191,7 @@ async function tampilkanPesanan() {
 
             `;
 
+
             container.appendChild(
                 divPesanan
             );
@@ -188,10 +200,19 @@ async function tampilkanPesanan() {
 
     } catch (error) {
 
-        console.error(error);
+        console.error(
+            "Gagal mengambil pesanan:",
+            error
+        );
 
     }
+
 }
+
+
+/*==================================================================================================*/
+/*                                      SELESAIKAN PESANAN                                         */
+/*==================================================================================================*/
 
 async function selesaikanPesanan(id) {
 
@@ -208,6 +229,7 @@ async function selesaikanPesanan(id) {
         const hasil =
             await response.json();
 
+
         if (!hasil.success) {
 
             alert(
@@ -215,7 +237,13 @@ async function selesaikanPesanan(id) {
             );
 
             return;
+
         }
+
+
+        /*==========================================================================================*/
+        /*                                HAPUS PESANAN DARI LAYAR                                  */
+        /*==========================================================================================*/
 
         const pesanan =
             document.querySelector(
@@ -226,25 +254,64 @@ async function selesaikanPesanan(id) {
 
             pesanan.remove();
 
-            const jumlahPesanan =
-                document.getElementById(
-                    "jumlahPesanan"
-                );
+        }
 
-            jumlahPesanan.textContent =
+
+        /*==========================================================================================*/
+        /*                                    UPDATE JUMLAH                                          */
+        /*==========================================================================================*/
+
+        const jumlahPesanan =
+            document.getElementById(
+                "jumlahPesanan"
+            );
+
+        if (jumlahPesanan) {
+
+            let jumlah =
                 parseInt(
                     jumlahPesanan.textContent
-                ) - 1;
+                ) || 0;
 
-            const jumlahSelesai =
-                document.getElementById(
-                    "jumlahSelesai"
-                );
+            jumlahPesanan.textContent =
+                Math.max(0, jumlah - 1);
+        }
 
-            jumlahSelesai.textContent =
+
+        const jumlahSelesai =
+            document.getElementById(
+                "jumlahSelesai"
+            );
+
+        if (jumlahSelesai) {
+
+            let jumlah =
                 parseInt(
                     jumlahSelesai.textContent
-                ) + 1;
+                ) || 0;
+
+            jumlahSelesai.textContent =
+                jumlah + 1;
+
+        }
+
+
+        /*==========================================================================================*/
+        /*                              CEK APAKAH MASIH ADA PESANAN                                 */
+        /*==========================================================================================*/
+
+        const container =
+            document.getElementById(
+                "daftarPesanan"
+            );
+
+        if (
+            container &&
+            container.children.length === 0
+        ) {
+
+            container.innerHTML =
+                "<p>Belum ada pesanan.</p>";
         }
 
     } catch (error) {
@@ -256,11 +323,21 @@ async function selesaikanPesanan(id) {
         );
 
     }
+
 }
 
+
+/*==================================================================================================*/
+/*                                      AUTO REFRESH PESANAN                                        */
+/*==================================================================================================*/
+
+// Tampilkan pesanan saat dashboard pertama kali dibuka
 tampilkanPesanan();
 
-setInterval(
-    tampilkanPesanan,
-    10000
-);
+
+// Cek pesanan baru setiap 10 detik
+setInterval(() => {
+
+    tampilkanPesanan();
+
+}, 10000);
