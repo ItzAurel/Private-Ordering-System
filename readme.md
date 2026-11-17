@@ -65,8 +65,8 @@ Pastikan sudah terinstal:
 ### 2. Kloning Repositori 📂
 
 ```bash
-git clone https://github.com/username/warung-look.git
-cd warung-look
+git clone https://github.com/ItzAurel/Simple-Ordering-System
+cd Simple-Ordering-System
 ```
 
 ---
