@@ -84,7 +84,7 @@ Perintah tersebut akan menginstal semua package yang dibutuhkan berdasarkan `pac
 
 ### 4. Konfigurasi Environment 🔐
 
-Buat file `.env` di folder utama project.
+Ganti isi file `.env` di folder utama project.
 
 ```env
 MONGODB_USERNAME="USERNAME"
@@ -169,16 +169,15 @@ Saran dan kode yang diberikan oleh AI tidak langsung digunakan seluruhnya. Kode 
 ## 📝 Catatan
 
 Project ini dibuat sebagai bagian dari tugas/proyek pembelajaran.
-
 Beberapa bagian dari project masih dapat dikembangkan lebih lanjut, seperti sistem autentikasi yang lebih lengkap, pengelolaan menu, serta fitur administrasi lainnya.
 
 ---
 
-<h3 align="center">📜 Lisensi Penggunaan</h3>
+<h3 align="center">📜 Contributor</h3>
 
-<p align="center">
-&#x20; Project ini dibuat untuk keperluan pembelajaran dan pengembangan.
-</p>
+* 🎓 **Pendidikan   :** SMK Negeri 1 Suruh
+* 📖 **Kejuruan     :** Teknik Komputer Jaringan
+* 💬 **Nama Peserta :** Aurellio Ahmad Karuniawan - Dhesta Fadilah
 
 <p align="center">
 &#x20; Dibuat dengan ❤️ oleh <b>ItzAurel | Leviathan-a13</b>
