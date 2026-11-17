@@ -87,8 +87,9 @@ Perintah tersebut akan menginstal semua package yang dibutuhkan berdasarkan `pac
 Buat file `.env` di folder utama project.
 
 ```env
-MONGODB_URI=your_mongodb_connection_string
-SESSION_SECRET=your_session_secret
+MONGODB_USERNAME="USERNAME"
+MONGODB_PASSWORD="PASSWORD"
+MONGODB_URI="mongodb+srv://USERNAME:PASSWORDL@NAMACLUSTER.HURUFRANDOM.mongodb.net/restoran?retryWrites=true&w=majority"
 ```
 
 ---
