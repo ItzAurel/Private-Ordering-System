@@ -1,6 +1,6 @@
 <h1 align="center">🍜 Simple Ordering System 🍜</h1>
 
-<p align="center"><img src="/images/logo/logo.png" width="200" alt="Warung Look"></p>
+<p align="center"><img src="../images/logo/logo.png" width="200" alt="Warung Look"></p>
 
 <p align="center"><strong>Website Sistem Pemesanan Makanan</strong> </p>
 
