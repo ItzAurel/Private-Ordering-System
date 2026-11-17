@@ -171,7 +171,7 @@ Beberapa bagian dari project masih dapat dikembangkan lebih lanjut, seperti sist
 
 ---
 
-<h3 align="center">📜 Contributor</h3>
+<h3>📜 Contributor</h3>
 
 * 🎓 **Pendidikan   :** SMK Negeri 1 Suruh
 * 📖 **Kejuruan     :** Teknik Komputer Jaringan
