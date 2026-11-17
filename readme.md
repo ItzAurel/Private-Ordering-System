@@ -66,7 +66,6 @@ Pastikan sudah terinstal:
 
 ```bash
 git clone https://github.com/ItzAurel/Simple-Ordering-System
-cd Simple-Ordering-System
 ```
 
 ---
