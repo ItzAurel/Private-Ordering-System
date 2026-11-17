@@ -105,6 +105,17 @@ Setelah server berhasil dijalankan, buka:
 ```text
 http://localhost:3000
 ```
+### 6. Contoh Halaman 🚀
+
+```
+http://localhost:3000
+```
+```
+http://localhost:3000/kasir/login.html
+```
+Contoh kata sandi yang ada di aurellzproject.my.id adalah
+|Username: Kasir
+|Password: KerjaYangBener
 
 ---
 
