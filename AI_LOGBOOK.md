@@ -21,7 +21,7 @@ Beberapa hal yang didiskusikan dengan AI antara lain:
 
 ### Contoh Prompt
 
-> Saya ingin membuat website sistem pemesanan restoran sederhana untuk tugas sekolah. Website memiliki halaman menu pelanggan, pemesanan, struk, login kasir, dan dashboard kasir. Bagaimana alur sistem yang sederhana untuk proyek tersebut?
+> Aku ingin membuat website sistem pemesanan restoran sederhana untuk tugas sekolah. Website memiliki halaman menu pelanggan, pemesanan, struk, login kasir, dan dashboard kasir. Bagaimana alur sistem yang sederhana untuk proyek tersebut?
 
 ### Hasil
 
@@ -31,7 +31,7 @@ Dari diskusi tersebut, ditentukan alur utama sistem:
 
 ### Validasi & Modifikasi Mandiri
 
-Saran dari AI tidak langsung digunakan seluruhnya. Struktur sistem disesuaikan dengan kebutuhan proyek dan kemampuan tim.
+Saran dari AI tidak langsung bisa digunakan seluruhnya. Struktur sistem disesuaikan dengan kebutuhan proyek dan kemampuan tim.
 
 Beberapa fitur yang terlalu kompleks tidak digunakan karena proyek dibuat untuk kebutuhan tugas sekolah.
 
@@ -55,7 +55,7 @@ AI juga membantu memberikan contoh struktur folder dan fungsi dasar untuk:
 
 ### Contoh Prompt
 
-> Buatkan struktur sederhana untuk website pemesanan restoran menggunakan HTML, CSS, JavaScript, Node.js, Express, dan MongoDB. Pisahkan halaman pelanggan dan halaman kasir.
+> Tolong Buatkan struktur sederhana untuk website pemesanan restoran menggunakan HTML, CSS, JavaScript, Node.js, Express, dan MongoDB. Pisahkan halaman pelanggan dan halaman kasir.
 
 ### Hasil
 
@@ -180,8 +180,8 @@ Apabila terdapat penjelasan atau kode yang tidak sesuai dengan kondisi proyek, b
 
 ## 📌 Kesimpulan
 
-AI digunakan sebagai alat bantu selama proses perancangan, penyusunan kode, debugging, deployment, dan pemahaman program.
+AI Bisa digunakan sebagai alat bantu selama proses perancangan, penyusunan kode, debugging, deployment, dan pemahaman program.
 
-AI membantu memberikan alternatif solusi dan penjelasan selama proses pengembangan, tetapi setiap saran tetap diperiksa, diuji, dan disesuaikan dengan kebutuhan proyek sebelum diterapkan.
+AI Juga membantu memberikan alternatif solusi dan penjelasan selama proses pengembangan, tetapi setiap saran tetap diperiksa, diuji, dan disesuaikan dengan kebutuhan proyek sebelum diterapkan.
 
 Dengan proses tersebut, penggunaan AI tidak hanya digunakan untuk menghasilkan kode, tetapi juga membantu anggota tim memahami cara kerja program yang dibuat.
