@@ -29,11 +29,6 @@ app.use(session({
     }
 }));
 
-
-/*==================================================================================================*/
-/*                                      FILE STATIC                                                 */
-/*==================================================================================================*/
-
 /*==================================================================================================*/
 /*                                      FILE STATIC                                                 */
 /*==================================================================================================*/
@@ -57,8 +52,7 @@ app.use(
 /*                                      KONEKSI MONGODB                                             */
 /*==================================================================================================*/
 
-const client = new MongoClient(process.env.MONGODB_URI);
-
+let client = null;
 let db = null;
 
 async function koneksiMongoDB() {
@@ -66,6 +60,12 @@ async function koneksiMongoDB() {
     if (db) {
         return db;
     }
+
+    if (!process.env.MONGODB_URI) {
+        throw new Error("MONGODB_URI tidak ditemukan di Environment Variables.");
+    }
+
+    client = new MongoClient(process.env.MONGODB_URI);
 
     await client.connect();
 
@@ -75,7 +75,6 @@ async function koneksiMongoDB() {
 
     return db;
 }
-
 
 /*==================================================================================================*/
 /*                                      LOGIN KASIR                                                  */
