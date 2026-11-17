@@ -21,9 +21,7 @@ Jika kamu ingin melihat-lihat tampilan awal laman Ordering System-nya, kamu bisa
 ## 📊 Informasi Projek
 
 - **Versi saat ini**: `v26.1.1`
-- **Bahasa**: `JavaScript`
-- **Frontend**: `HTML, CSS, JavaScript`
-- **Backend**: `Node.js + Express.js`
+- **Bahasa**: `HTML, CSS, JavaScript`
 - **Database**: `MongoDB`
 - **Deployment**: `Vercel`
 
