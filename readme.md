@@ -18,7 +18,7 @@ Untuk bagian backend, sistem menggunakan **Node.js + Express.js**, sedangkan dat
 
 ## 📊 Informasi Projek
 
-- **Versi saat ini**: `v1.0.0`
+- **Versi saat ini**: `v26.1.1`
 - **Bahasa**: `JavaScript`
 - **Frontend**: `HTML, CSS, JavaScript`
 - **Backend**: `Node.js + Express.js`
