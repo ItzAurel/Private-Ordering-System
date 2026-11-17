@@ -115,16 +115,6 @@ Untuk membuat kata sandi baru untuk akun kasir, gunakan kode berikut:
 node buat-password.js
 ```
 
-Namun sebelum kamu bash kode tersebut, kamu bisa terlebih dahulu mengedit isi buat-password.js terlebih dahulu
-
-### Contoh Yang Sudah Jadi
-Contoh kata sandi yang ada di [aurellzproject.my.id/login](https://www.aurellzproject.my.id/kasir/login.html) adalah
-```
-Username: Kasir
-Password: KerjaYangBener
-```
-Sehingga setelah kamu mencoba memesan satu menu, maka semua list pesanan akan muncul di bagian ini.
-
 ## 🌐 Deployment
 
 Project ini juga dapat dijalankan secara online menggunakan **Vercel**.
