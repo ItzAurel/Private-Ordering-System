@@ -116,7 +116,11 @@ try {
 
     } else {
 
-        tampilkanNotifikasi("Gagal menyimpan pesanan.", "error");
+            console.error("Error dari server:", hasil.error);
+
+    tampilkanNotifikasi(
+        "Gagal menyimpan pesanan: " + hasil.error,
+        "error");
 
     }
 
