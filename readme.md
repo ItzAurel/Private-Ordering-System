@@ -113,7 +113,7 @@ http://localhost:3000
 ```
 http://localhost:3000/kasir/login.html
 ```
-Contoh kata sandi yang ada di [aurellzproject.my.id](www.aurellzproject.my.id) adalah
+Contoh kata sandi yang ada di [aurellzproject.my.id](https://aurellzproject.my.id) adalah
 ```
 Username: Kasir
 Password: KerjaYangBener
