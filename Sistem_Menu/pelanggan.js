@@ -321,4 +321,4 @@ function ubahQty(button, perubahan) {
 }
 cekStatusPesanan();
 
-setInterval(cekStatusPesanan, 3000);
+setInterval(cekStatusPesanan, 10000);
