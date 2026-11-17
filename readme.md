@@ -8,8 +8,6 @@
 
 ## 🚀 Perkenalan
 
-Halo gusy! 👋
-
 **Simple Ordering System** adalah sebuah website sistem pemesanan makanan yang dibuat untuk mempermudah pelanggan untuk melihat menu, melakukan pemesanan, serta membantu kasir dalam mengelola pesanan yang masuk.
 
 Pelanggan dapat memilih menu, menentukan jumlah pesanan, memasukkan nomor meja, lalu mengirim pesanan langsung ke dashboard kasir.
