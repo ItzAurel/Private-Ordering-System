@@ -1,4 +1,4 @@
-# 🤖 AI LOGBOOK
+<h1 align="center">📑 AI LOGBOOK 📑</h1>
 
 Dokumentasi pemanfaatan kecerdasan artifisial dalam proses pengembangan proyek **Sistem Pemesanan Restoran**.
 
