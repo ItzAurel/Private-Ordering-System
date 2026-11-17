@@ -262,5 +262,5 @@ tampilkanPesanan();
 
 setInterval(
     tampilkanPesanan,
-    3000
+    10000
 );
