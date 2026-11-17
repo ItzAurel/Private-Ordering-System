@@ -1,67 +1,108 @@
-# 🍜 Warung Look
+\<h1 align="center">   🍜 Simple Ordering System 🍜 \</h1>
 
-> Sistem pemesanan makanan berbasis website untuk memudahkan pelanggan melakukan pemesanan dan kasir mengelola pesanan.
+\<p align="center">   \<img src="[https://media.tenor.com/hmYVvHn6-McAAAAi/genshin-impact-hu-tao.gif](https://media.tenor.com/hmYVvHn6-McAAAAi/genshin-impact-hu-tao.gif)" width="200" alt="Warung Look"> \</p>
 
----
-
-## ✦ Tentang
-
-**Warung Look** adalah aplikasi pemesanan makanan berbasis web yang memungkinkan pelanggan melihat menu, memilih jumlah pesanan, mengirim pesanan ke kasir, serta melihat status pesanannya.
-
-Kasir dapat melihat pesanan yang masuk melalui dashboard dan menandai pesanan yang telah selesai.
+\<p align="center">   \<strong>Website Sistem Pemesanan Makanan\</strong> \</p>
 
 ---
 
-## ✦ Fitur
+## 🚀 Perkenalan
 
-- 📋 Daftar menu makanan
-- 🛒 Pemilihan jumlah pesanan
-- 🪑 Input nomor meja
-- 📦 Pengiriman pesanan ke kasir
-- 🧾 Struk pesanan
-- 🔄 Status pesanan secara berkala
-- 🖥️ Dashboard kasir
-- ✅ Penyelesaian pesanan
-- 🗄️ Penyimpanan data menggunakan MongoDB
+Halo gusy! 👋
+
+**Simple Ordering System** adalah sebuah website sistem pemesanan makanan yang dibuat untuk mempermudah pelanggan untuk melihat menu, melakukan pemesanan, serta membantu kasir dalam mengelola pesanan yang masuk.
+
+Pelanggan dapat memilih menu, menentukan jumlah pesanan, memasukkan nomor meja, lalu mengirim pesanan langsung ke dashboard kasir.
+
+Untuk bagian backend, sistem menggunakan **Node.js + Express.js**, sedangkan data pesanan disimpan menggunakan **MongoDB**.
 
 ---
 
-## ✦ Teknologi
+## 📊 Informasi Projek
 
-| Teknologi | Penggunaan |
-|---|---|
-| HTML | Struktur halaman |
-| CSS | Tampilan dan desain |
-| JavaScript | Logika dan interaksi |
-| Node.js | Server |
-| Express.js | Backend & API |
-| MongoDB | Database |
-| Vercel | Deployment |
+- **Versi saat ini**: `v1.0.0`
+- **Bahasa**: `JavaScript`
+- **Frontend**: `HTML, CSS, JavaScript`
+- **Backend**: `Node.js + Express.js`
+- **Database**: `MongoDB`
+- **Deployment**: `Vercel`
 
 ---
 
-## ✦ Cara Menjalankan
+## ✨ Fitur
 
-### 1. Install dependencies
+- 🍜 **Halaman Menu** — Halaman utama untuk melihat daftar makanan, memilih jumlah pesanan, memasukkan nomor meja, dan mengirim pesanan.
+- 🧾 **Struk Pesanan** — Menampilkan rincian pesanan, total pembayaran, serta status pesanan.
+- 🔐 **Login Kasir** — Halaman khusus untuk kasir melakukan login sebelum mengakses sistem.
+- 🖥️ **Dashboard Kasir** — Menampilkan pesanan yang masuk dan menyediakan tombol untuk menyelesaikan pesanan.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi     | Kegunaan                              |
+| ------------- | ------------------------------------- |
+| 🟧 HTML       | Membuat struktur halaman website      |
+| 🎨 CSS        | Mengatur tampilan dan desain          |
+| 🟨 JavaScript | Mengatur interaksi dan logika website |
+| 🟢 Node.js    | Menjalankan backend                   |
+| 🚂 Express.js | Membuat server dan API                |
+| 🍃 MongoDB    | Menyimpan data pesanan                |
+| ▲ Vercel      | Deployment website                    |
+
+---
+
+## 📖 Tutorial Cara Pasang & Menjalankan
+
+### 1. Persyaratan ⚙️
+
+Pastikan sudah terinstal:
+
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+---
+
+### 2. Kloning Repositori 📂
+
+```bash
+git clone https://github.com/username/warung-look.git
+cd warung-look
+```
+
+---
+
+### 3. Instal Dependensi 📦
 
 ```bash
 npm install
 ```
 
-### 2. Buat file `.env`
+Perintah tersebut akan menginstal semua package yang dibutuhkan berdasarkan `package.json`.
+
+---
+
+### 4. Konfigurasi Environment 🔐
+
+Buat file `.env` di folder utama project.
 
 ```env
 MONGODB_URI=your_mongodb_connection_string
 SESSION_SECRET=your_session_secret
 ```
 
-### 3. Jalankan server
+> ⚠️ Jangan upload file `.env` ke GitHub karena berisi informasi rahasia.
+
+---
+
+### 5. Jalankan Website 🚀
 
 ```bash
 npm start
 ```
 
-Kemudian buka:
+Setelah server berhasil dijalankan, buka:
 
 ```text
 http://localhost:3000
@@ -69,30 +110,57 @@ http://localhost:3000
 
 ---
 
-## ✦ AI Usage Disclosure
+## 🌐 Deployment
 
-### Alat AI
-- ChatGPT
+Project ini juga dapat dijalankan secara online menggunakan **Vercel**.
+
+Environment Variable yang perlu ditambahkan pada Vercel:
+
+```text
+MONGODB_URI
+SESSION_SECRET
+```
+
+Setelah repository terhubung dengan Vercel, project akan otomatis di-build dan dijalankan oleh server.
+
+---
+
+## 🤖 AI Usage Disclosure
+
+### AI yang Digunakan
+
+- 🤖 **ChatGPT**
 
 ### Penggunaan AI
-AI digunakan sebagai bantuan dalam proses pengembangan, terutama untuk:
-- Membantu memahami konsep pemrograman.
-- Membantu menemukan dan memperbaiki error pada kode.
-- Memberikan saran struktur dan logika program.
-- Membantu proses debugging.
+
+AI digunakan sebagai alat bantu selama proses pengembangan project, terutama untuk:
+
+- 💡 Membantu memahami konsep pemrograman.
+- 🐛 Membantu mencari dan memperbaiki error pada program.
+- 🔧 Membantu debugging kode.
+- 🧠 Memberikan saran mengenai struktur dan logika program.
+- 📚 Membantu menjelaskan penggunaan teknologi yang digunakan.
 
 ### Penyesuaian oleh Pengembang
-Kode yang diberikan oleh AI disesuaikan dan diperbaiki kembali secara mandiri agar sesuai dengan kebutuhan proyek, struktur program, serta hasil pengujian yang dilakukan.
+
+Saran dan kode yang diberikan oleh AI tidak langsung digunakan seluruhnya. Kode disesuaikan, diperbaiki, diuji, dan dikembangkan kembali agar sesuai dengan kebutuhan project.
 
 ---
 
-## ✦ Pengembang
+## 📝 Catatan
 
-**Nama:** [Nama Lengkap]  
-**Kelas:** [Kelas]  
-**Jurusan:** [Jurusan]  
-**Sekolah:** [Nama Sekolah]
+Project ini dibuat sebagai bagian dari tugas/proyek pembelajaran.
+
+Beberapa bagian dari project masih dapat dikembangkan lebih lanjut, seperti sistem autentikasi yang lebih lengkap, pengelolaan menu, serta fitur administrasi lainnya.
 
 ---
 
-> *Simple ordering system for a better dining experience.*
+\<h3 align="center">📜 Lisensi\</h3>
+
+\<p align="center">
+&#x20; Project ini dibuat untuk keperluan pembelajaran dan pengembangan.
+\</p>
+
+\<p align="center">
+&#x20; Dibuat dengan ❤️ oleh \<b>ItzAurel\</b>
+\</p>
