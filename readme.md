@@ -114,8 +114,10 @@ http://localhost:3000
 http://localhost:3000/kasir/login.html
 ```
 Contoh kata sandi yang ada di aurellzproject.my.id adalah
-|Username: Kasir
-|Password: KerjaYangBener
+```
+Username: Kasir
+Password: KerjaYangBener
+```
 
 ---
 
