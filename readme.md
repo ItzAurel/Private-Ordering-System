@@ -1,8 +1,6 @@
 <h1 align="center">🍜 Simple Ordering System 🍜</h1>
 
-<p align="center"> 
-  
-  <img src="https://media.tenor.com/TXdUAkpSyjwAAAAm/sleepy-cat-transparent-sleepy.webp" width="200" alt="Warung"></p>
+<p align="center"><img src="https://media.tenor.com/TXdUAkpSyjwAAAAm/sleepy-cat-transparent-sleepy.webp" width="200" alt="Warung"></p>
 
 <p align="center"><strong>Website Sistem Pemesanan Makanan</strong> </p>
 
