@@ -59,12 +59,12 @@ async function prosesPesan() {
     const total = hitungTotal();
 
     if (!pemesan) {
-        tampilkanNotifikasi('Silakan isi Nomor Meja terlebih dahulu bambang!', 'error');
+        tampilkanNotifikasi('Silakan isi Nomor Meja terlebih dahulu', 'error');
         return;
     }
 
     if (total === 0) {
-        tampilkanNotifikasi('Pilih minimal 1 menu sebelum memesan. Lu kesini sebenernya mau ngapain dah?', 'error');
+        tampilkanNotifikasi('Pilih minimal 1 menu sebelum memesan', 'error');
         return;
     }
 
