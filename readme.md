@@ -1,8 +1,8 @@
-\<h1 align="center">   🍜 Simple Ordering System 🍜 \</h1>
+<h1 align="center">🍜 Simple Ordering System 🍜</h1>
 
-\<p align="center">   \<img src="[https://media.tenor.com/hmYVvHn6-McAAAAi/genshin-impact-hu-tao.gif](https://media.tenor.com/hmYVvHn6-McAAAAi/genshin-impact-hu-tao.gif)" width="200" alt="Warung Look"> \</p>
+<p align="center"><img src="[https://media.tenor.com/hmYVvHn6-McAAAAi/genshin-impact-hu-tao.gif](https://media.tenor.com/hmYVvHn6-McAAAAi/genshin-impact-hu-tao.gif)" width="200" alt="Warung Look"></p>
 
-\<p align="center">   \<strong>Website Sistem Pemesanan Makanan\</strong> \</p>
+<p align="center"><strong>Website Sistem Pemesanan Makanan</strong> </p>
 
 ---
 
@@ -130,7 +130,9 @@ Setelah repository terhubung dengan Vercel, project akan otomatis di-build dan d
 ### AI yang Digunakan
 
 - 🤖 **ChatGPT**
-
+- ♊ **Gemini**
+- 🛩️ **Copilot**
+  
 ### Penggunaan AI
 
 AI digunakan sebagai alat bantu selama proses pengembangan project, terutama untuk:
@@ -155,12 +157,12 @@ Beberapa bagian dari project masih dapat dikembangkan lebih lanjut, seperti sist
 
 ---
 
-\<h3 align="center">📜 Lisensi\</h3>
+<h3 align="center">📜 Lisensi</h3>
 
-\<p align="center">
+<p align="center">
 &#x20; Project ini dibuat untuk keperluan pembelajaran dan pengembangan.
-\</p>
+</p>
 
-\<p align="center">
-&#x20; Dibuat dengan ❤️ oleh \<b>ItzAurel\</b>
-\</p>
+<p align="center">
+&#x20; Dibuat dengan ❤️ oleh <b>ItzAurel</b>
+</p>
