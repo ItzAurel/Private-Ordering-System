@@ -14,6 +14,8 @@ Pelanggan dapat memilih menu, menentukan jumlah pesanan, memasukkan nomor meja, 
 
 Untuk bagian backend, sistem menggunakan **Node.js + Express.js**, sedangkan data pesanan disimpan menggunakan **MongoDB**.
 
+Jika kamu ingin melihat-lihat tampilan awal laman Ordering System-nya, kamu bisa kunjungi [link di sini.](https://www.aurellzproject.my.id/)
+
 ---
 
 ## 📊 Informasi Projek
