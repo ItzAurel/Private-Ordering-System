@@ -91,8 +91,6 @@ MONGODB_URI=your_mongodb_connection_string
 SESSION_SECRET=your_session_secret
 ```
 
-> ⚠️ Jangan upload file `.env` ke GitHub karena berisi informasi rahasia.
-
 ---
 
 ### 5. Jalankan Website 🚀
