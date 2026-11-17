@@ -172,10 +172,9 @@ Beberapa bagian dari project masih dapat dikembangkan lebih lanjut, seperti sist
 ---
 
 <h3>📜 Contributor</h3>
-
+* 💬 **Nama Peserta :** Aurellio Ahmad Karuniawan - Dhesta Fadilah
 * 🎓 **Pendidikan   :** SMK Negeri 1 Suruh
 * 📖 **Kejuruan     :** Teknik Komputer Jaringan
-* 💬 **Nama Peserta :** Aurellio Ahmad Karuniawan - Dhesta Fadilah
 
 <p align="center">
 &#x20; Dibuat dengan ❤️ oleh <b>ItzAurel | Leviathan-a13</b>
