@@ -1,5 +1,5 @@
 <h1 align="center">📑 AI LOGBOOK 📑</h1>
-<h4 align="center">Dokumentasi pemanfaatan kecerdasan artifisial dalam proses pengembangan proyek <strong>Sistem Pemesanan Restoran</strong>.</h1>
+<h4 align="center">Dokumentasi pemanfaatan kecerdasan artifisial dalam proses pengembangan proyek Sistem Pemesanan Restoran.</h1>
 
 ---
 
