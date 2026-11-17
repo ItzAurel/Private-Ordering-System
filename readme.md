@@ -105,21 +105,24 @@ Setelah server berhasil dijalankan, buka:
 ```text
 http://localhost:3000
 ```
-### 6. Contoh Halaman 🚀
 
+### 6. Buat Kata Sandi Dashboard 🔐
+
+Untuk membuat kata sandi baru untuk akun kasir, gunakan kode berikut:
+
+```bash
+node buat-password.js
 ```
-http://localhost:3000
-```
-```
-http://localhost:3000/kasir/login.html
-```
-Contoh kata sandi yang ada di [aurellzproject.my.id/kasir/login](https://aurellzproject.my.id/kasir/login.html) adalah
+
+Namun sebelum kamu bash kode tersebut, kamu bisa terlebih dahulu mengedit isi buat-password.js terlebih dahulu
+
+### Contoh Yang Sudah Jadi
+Contoh kata sandi yang ada di [aurellzproject.my.id/login](https://www.aurellzproject.my.id/kasir/login.html) adalah
 ```
 Username: Kasir
 Password: KerjaYangBener
 ```
-
----
+Sehingga setelah kamu mencoba memesan satu menu, maka semua list pesanan akan muncul di bagian ini.
 
 ## 🌐 Deployment
 
