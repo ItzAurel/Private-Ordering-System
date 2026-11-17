@@ -103,11 +103,14 @@ npm start
 
 Setelah server berhasil dijalankan, buka:
 
-```text
+```halaman pelanggan
 http://localhost:3000
 ```
+```halaman kasir
+http://localhost:3000/kasir/login.html
+```
 
-### 6. Buat Kata Sandi Dashboard 🔐
+### 6. Buat Kata Sandi Dashboard Kasir🔐
 
 Untuk membuat kata sandi baru untuk akun kasir, gunakan kode berikut:
 
