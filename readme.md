@@ -1,6 +1,6 @@
 <h1 align="center">🍜 Simple Ordering System 🍜</h1>
 
-<p align="center"><img src="https://media.tenor.com/hmYVvHn6-McAAAAi/genshin-impact-hu-tao.gif" width="200" alt="Warung begituan"></p>
+<p align="center"><img src="[cat](https://tenor.com/view/sleepy-cat-transparent-sleepy-cat-anime-transparent-gif-5582022631962626620)" width="200" alt="Warung begituan"></p>
 
 <p align="center"><strong>Website Sistem Pemesanan Makanan</strong> </p>
 
